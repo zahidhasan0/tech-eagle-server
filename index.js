@@ -6,6 +6,7 @@ const port = process.env.PORT || 5000
 //use cors
 app.use(cors());
 
+//load courses data by from data.json
 const courses=require('./data/data.json')
 
 app.get('/', (req,res)=>{
