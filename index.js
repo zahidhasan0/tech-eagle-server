@@ -14,6 +14,7 @@ app.get('/', (req,res)=>{
     res.send('api running')
 })
 
+//courses data load
 app.get('/courses', (req,res)=>{
     res.send(courses)
 })
