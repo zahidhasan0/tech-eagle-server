@@ -9,6 +9,7 @@ app.use(cors());
 //load courses data by from data.json
 const courses=require('./data/data.json')
 
+//root directory
 app.get('/', (req,res)=>{
     res.send('api running')
 })
